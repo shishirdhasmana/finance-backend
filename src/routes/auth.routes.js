@@ -29,10 +29,10 @@ const validate = require("../middleware/validate");
  *             properties:
  *               name:
  *                 type: string
- *                 example: John Doe
+ *                 example: Shishir Dhasmana
  *               email:
  *                 type: string
- *                 example: john@example.com
+ *                 example: shishirdhasmana@example.com
  *               password:
  *                 type: string
  *                 example: Password123
