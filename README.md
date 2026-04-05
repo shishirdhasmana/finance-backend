@@ -15,7 +15,7 @@ The stack is Node.js, Express, and MongoDB. I tried to keep the architecture cle
 
 ### 1. Clone the repo
 ```bash
-git clone 
+git clone "https://github.com/shishirdhasmana/finance-backend.git" 
 cd finance-backend
 ```
 
