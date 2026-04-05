@@ -63,7 +63,7 @@ You'll see this in the terminal:
 
 ### 6. Explore the API
 
-Open **http://localhost:5000/api-docs** in your browser. This is a fully interactive Swagger UI where you can see every endpoint, read the request/response shapes, and test everything live.
+Open **https://finance-backend-valz.onrender.com/api-docs** in your browser. This is a fully interactive Swagger UI where you can see every endpoint, read the request/response shapes, and test everything live.
 
 To test protected endpoints in the docs:
 1. Hit `POST /api/auth/login` with one of the seed credentials above

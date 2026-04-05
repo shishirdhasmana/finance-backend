@@ -28,8 +28,8 @@ const options = {
           type: 'object',
           properties: {
             id:        { type: 'string',  example: '64f1a2b3c4d5e6f7a8b9c0d1' },
-            name:      { type: 'string',  example: 'John Doe'                 },
-            email:     { type: 'string',  example: 'john@example.com'         },
+            name:      { type: 'string',  example: 'Shishir Dhasmana' },
+            email:     { type: 'string',  example: 'shishirdhasmana@example.com' },
             role:      { type: 'string',  enum: ['viewer', 'analyst', 'admin'] },
             status:    { type: 'string',  enum: ['active', 'inactive']         },
             createdAt: { type: 'string',  example: '2024-01-01T00:00:00.000Z' },
