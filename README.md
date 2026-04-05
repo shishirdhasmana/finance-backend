@@ -86,6 +86,8 @@ Tests:       21 passed, 21 total
 ## Project Structure
 
 I went with a layered architecture — routes handle HTTP, controllers handle request/response, services handle business logic and DB queries. It keeps each layer focused and independently testable.
+
+```
 src/
 ├── config/
 │   ├── db.js                 # MongoDB connection
@@ -127,6 +129,8 @@ tests/
 └── dashboard.test.js
 seed.js
 server.js
+
+```
 
 ---
 
