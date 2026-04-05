@@ -15,7 +15,7 @@ The stack is Node.js, Express, and MongoDB. I tried to keep the architecture cle
 
 ### 1. Clone the repo
 ```bash
-git clone "https://github.com/shishirdhasmana/finance-backend.git" 
+git clone https://github.com/shishirdhasmana/finance-backend.git 
 cd finance-backend
 ```
 
@@ -30,10 +30,13 @@ cp .env.example .env
 ```
 
 Open `.env` and fill in your values:
+
+```
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/finance_db
 JWT_SECRET=your_secret_key_here
 JWT_EXPIRES_IN=7d
+```
 
 ### 4. Seed the database
 
